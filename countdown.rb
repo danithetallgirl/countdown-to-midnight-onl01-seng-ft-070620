@@ -1,5 +1,5 @@
 def countdown(n)   
-  loop do  
+  while n = 10 
     puts "#{n} SECOND(S)!"
     break if n <= 1
     n -= 1
